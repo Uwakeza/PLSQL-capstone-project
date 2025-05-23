@@ -15,4 +15,4 @@ These challenges include :
 
 🎯OBJECTIVES
 The objective of the Real Estate Management System is to develop a comprehensive, user-friendly platform that simplifies and streamlines the management of real estate properties
-
+K
