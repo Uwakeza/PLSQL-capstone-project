@@ -142,6 +142,94 @@ Improved Decision-Making:
 - Enhanced Communication:
 
 - Notification systems ensure all parties stay informed.
+ 
+  💡Logical Model Design
+  ---
+Deliverables for Logical Model Design
+
+1. Entity-Relationship (ER) Model
+Identify and Define Entities:
+
+- Property: Represents real estate properties managed by the system.
+
+- Owner: Represents individuals or organizations owning the properties.
+
+- Tenant: Represents individuals or organizations leasing the properties.
+
+- Lease Agreement: Represents lease agreements between owners and tenants for specific properties.
+
+- Payment: Tracks payments made by tenants for leases.
+
+- Maintenance Request: Represents requests for property maintenance by tenants.
+
+Attributes and Keys:
+
+- Property:
+
+Attributes: PropertyID (PK), Address, Type (e.g., Residential, Commercial), Size, Status (Available/Leased), OwnerID (FK).
+
+- Owner:
+
+Attributes: OwnerID (PK), Name, ContactInfo, Address.
+
+- Tenant:
+
+Attributes: TenantID (PK), Name, ContactInfo, PaymentMethod.
+
+- Lease Agreement:
+
+Attributes: LeaseID (PK), PropertyID (FK), TenantID (FK), StartDate, EndDate, MonthlyRent.
+
+- Payment:
+
+Attributes: PaymentID (PK), LeaseID (FK), PaymentDate, Amount, PaymentStatus.
+
+- Maintenance Request:
+
+Attributes: RequestID (PK), TenantID (FK), PropertyID (FK), RequestDate, RequestDetails, Status.
+
+2. Relationships and Constraints
+   
+Relationships:
+
+- Owner to Property: One-to-Many (One owner can own multiple properties).
+
+- Property to Lease Agreement: One-to-One or One-to-Many (A property can have one active lease agreement but may have historical leases).
+
+- Tenant to Lease Agreement: One-to-Many (A tenant may lease multiple properties over time).
+
+- Lease Agreement to Payment: One-to-Many (Each lease agreement has multiple payments).
+
+- Tenant to Maintenance Request: One-to-Many (Tenants can submit multiple requests for maintenance).
+
+Constraints:
+
+- NOT NULL: Primary and foreign keys, essential attributes like Name, ContactInfo.
+
+- UNIQUE: Attributes like PropertyID, LeaseID, OwnerID.
+
+- CHECK: E.g., MonthlyRent > 0, Status IN ('Pending', 'Completed', 'In Progress').
+
+- DEFAULT: Default status values, e.g., Status = 'Available' for properties.
+
+3. Normalization
+Ensure:
+
+- 1NF: Atomic attributes, unique rows.
+
+- 2NF: No partial dependency, every non-key attribute is fully dependent on the primary key.
+
+ - 3NF: Eliminate transitive dependencies. Ensure all non-key attributes depend only on the primary key.
+
+4. Handling Data Scenarios
+   
+- Real-world scenarios include:
+
+- Multi-tenancy: Handle properties leased by multiple tenants across different time periods.
+
+- Late payments: Include fields to track payment delays and statuses.
+
+- Maintenance escalations: Link unresolved maintenance requests to agents or escalation mechanisms.
 
 
 
