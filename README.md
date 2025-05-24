@@ -234,13 +234,13 @@ Ensure:
  🖥Database Creation
   ---
   
-  CREATE PLUGGABLE DATABASE thur_27893_RealEstateMS_DB 
+  Pluggable Database (PDB) named:Thur_27893_Uwakeza_realestateMS_DB 
   
-  ADMIN USER admin IDENTIFIED BY Merveille 
+  I used my  first name as the password and grant the user super admin privileges.
+  
+   ALTER SESSION SET CONTAINER = CDB$ROOT;
 
-  ALTER SESSION SET CONTAINER = CDB$ROOT;
-
-  ALTER PLUGGABLE DATABASE thur_27893_RealEstateMS_DB OPEN;
+  ALTER PLUGGABLE DATABASE Thur_27893_Uwakeza_realestateMS_DB  OPEN;
   
   GRANT ALL PRIVILEGES TO admin;
 
@@ -256,13 +256,17 @@ _ System activity and SQL execution visible.
 
 📸Screenshots
 
-🖥Database creation and graanting privileges
+🖥Database creation and granting privileges
+
 
   ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/d1c3ca794d84831780e830870f4637faf008b1af/Cap1.png)
-
-📊Oracle Enterprise Manager
   
-  ![image alt]()
+
+📊OEM Diagram
+
+  
+  ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/0c15df538edd2f5fe6415d8439da584368fc7f83/OEM%20DIAGRAM1.png)
+  
   
   
 
