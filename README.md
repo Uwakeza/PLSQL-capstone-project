@@ -245,9 +245,24 @@ Ensure:
   GRANT ALL PRIVILEGES TO admin;
 
   SELECT NAME, OPEN_MODE FROM V$PDBS;
+  
+📊Oracle Enterprise Manager (OEM) 
+
+_ Demonstrating the PDB is active, open, and monitored.
+
+_ Admin user roles shown to confirm setup.
+
+_ System activity and SQL execution visible.
+
+📸Screenshots
+
+🖥Database creation and graanting privileges
 
   ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/d1c3ca794d84831780e830870f4637faf008b1af/Cap1.png)
+
+📊Oracle Enterprise Manager
   
+  ![image alt]()
   
   
 
