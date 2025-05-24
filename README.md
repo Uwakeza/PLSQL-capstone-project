@@ -75,6 +75,10 @@ This phase outlines a structured approach to effectively model a business proces
 ---
 The Real estate management system ensures the efficient flow of information between landlords, tenants, property managers, and supporting systems, enabling decision-making and streamlined operations.
 
+⏲Business Process Model and Notation(BPMN)
+---
+
+
 
 
 
