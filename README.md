@@ -77,6 +77,70 @@ The Real estate management system ensures the efficient flow of information betw
 
 ⏲Business Process Model and Notation(BPMN)
 ---
+![image alt]()
+Description of the Diagram
+Swimlanes:
+
+Tenants:
+
+Initiate the process by submitting a rental application.
+
+Receive notification about the outcome of the application.
+
+Property Managers:
+
+Review applications.
+
+Notify tenants of the decision.
+
+Coordinate with the maintenance team if needed.
+
+Maintenance:
+
+Receives and updates requests related to maintenance.
+
+System (Database):
+
+Records the application and maintenance updates.
+
+Sends notifications and logs interactions.
+
+Flow:
+
+The process begins with tenants submitting a rental application.
+
+Property managers review the application and decide whether to approve it.
+
+If approved, it may generate maintenance-related tasks.
+
+If not approved, tenants are notified of the decision.
+
+Maintenance teams handle specific requests, update statuses, and collaborate with the database for record-keeping.
+
+Notifications and reports are issued to ensure communication among stakeholders.
+
+Decision Points:
+
+A key decision point is "Application Approved?" that branches to different outcomes based on the decision.
+
+System Interaction:
+
+The database serves as the backbone, ensuring all updates and notifications are tracked and stored efficiently.
+
+How It Supports MIS Functions
+Improved Decision-Making:
+
+Centralized data in the database helps property managers and tenants track progress transparently.
+
+Streamlined Operations:
+
+Clearly defined roles and automated notifications reduce bottlenecks.
+
+Enhanced Communication:
+
+Notification systems ensure all parties stay informed.
+
+
 
 
 
