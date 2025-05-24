@@ -246,6 +246,7 @@ Ensure:
 
   SELECT NAME, OPEN_MODE FROM V$PDBS;
 
+  ![image alt]()
   
   
   
