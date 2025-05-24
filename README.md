@@ -246,7 +246,7 @@ Ensure:
 
   SELECT NAME, OPEN_MODE FROM V$PDBS;
 
-  ![image alt]()
+  ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/d1c3ca794d84831780e830870f4637faf008b1af/Cap1.png)
   
   
   
