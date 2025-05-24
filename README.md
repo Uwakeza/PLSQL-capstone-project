@@ -233,10 +233,23 @@ Ensure:
 
  🖥Database Creation
   ---
-  Create the Pluggable Database:
-  CREATE PLUGGABLE DATABASE thur_27893_RealEstateMS_DB 
-  ADMIN USER admin IDENTIFIED BY Merveille 
   
+  CREATE PLUGGABLE DATABASE thur_27893_RealEstateMS_DB 
+  
+  ADMIN USER admin IDENTIFIED BY Merveille 
+
+  ALTER SESSION SET CONTAINER = CDB$ROOT;
+
+  ALTER PLUGGABLE DATABASE thur_27893_RealEstateMS_DB OPEN;
+  
+  GRANT ALL PRIVILEGES TO admin;
+
+  SELECT NAME, OPEN_MODE FROM V$PDBS;
+
+  
+  
+  
+
 
    
 
