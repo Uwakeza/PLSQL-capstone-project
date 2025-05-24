@@ -231,6 +231,14 @@ Ensure:
 
 - Maintenance escalations: Link unresolved maintenance requests to agents or escalation mechanisms.
 
+ 🖥Database Creation
+  ---
+  Create the Pluggable Database:
+  CREATE PLUGGABLE DATABASE thur_27893_RealEstateMS_DB 
+  ADMIN USER admin IDENTIFIED BY Merveille 
+  
+
+   
 
 
 
