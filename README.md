@@ -306,7 +306,11 @@ Database Interaction and Transactions
 
 🧩Data operations
 
+
+
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/c55edc0198dc7bb89f1adb45f645ce2686cbc243/T20.png)
+
+
 
 
 
