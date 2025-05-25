@@ -316,7 +316,7 @@ Table Creation
 Drop
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/94fda1054863f795b7d03944bf63febe5ee294bf/T25.png)
 
-🔍Windows Function Analysis
+🔍Windows Function Analysis(P6)
 
 - Parametirized Procedure
 
@@ -332,6 +332,11 @@ Drop
 - Packages
 
   ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/96c7573979096c66ed8dbfffb2a98b153c1e0efa/package%20output.png)
+
+  Advanced Database Programming and Auditing (P7)
+
+  
+  
 
   
 
