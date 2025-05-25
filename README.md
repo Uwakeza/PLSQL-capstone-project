@@ -187,6 +187,9 @@ Attributes: PaymentID (PK), LeaseID (FK), PaymentDate, Amount, PaymentStatus.
 - Maintenance Request:
 
 Attributes: RequestID (PK), TenantID (FK), PropertyID (FK), RequestDate, RequestDetails, Status.
+Entity Relationship Diagram
+
+![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/85173517aa8b3fa4720d5d5c978dff23fa9cc7a9/ERD_DIAGRAM.png)
 
 2. Relationships and Constraints
    
