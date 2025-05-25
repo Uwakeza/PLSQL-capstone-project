@@ -307,10 +307,14 @@ Database Interaction and Transactions
 🧩Data operations
 
 
-
+Update
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/c55edc0198dc7bb89f1adb45f645ce2686cbc243/T20.png)
+Delete
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/3024ef8cbc83bcfd1cb0201afcfae574589f14e3/T22.png)
+Table Creation
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/701a4950f516ff7b4addeaedbead376077c6d985/T24.png)
+Drop
+![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/94fda1054863f795b7d03944bf63febe5ee294bf/T25.png)
 
 
 
