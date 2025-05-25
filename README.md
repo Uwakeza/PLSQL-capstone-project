@@ -268,8 +268,33 @@ _ System activity and SQL execution visible.
   ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/0c15df538edd2f5fe6415d8439da584368fc7f83/OEM%20DIAGRAM1.png)
   
   
-  
+  📘Table Implementation and Data Insertion 
 
+  Objective: Translate the logical data model into physical database tables.
+
+  Tables implemented:
+  
+  - Tenant
+  
+  - Property
+
+  - Owner
+
+  - Lease
+
+ -  Maintenance Request
+
+  - payment
+  - 
+2. Data Insertion
+
+ Objectives : Populate the tables with realistic and meaningful data
+
+📸screeshots
+
+
+
+  
 
    
 
