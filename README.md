@@ -338,36 +338,15 @@ Drop
    ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/d0b1efd702a3c61d0affe7d794c5b6350a7096a5/PHASE7%2C1.png)
  ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/ef4a6d446b55caa9d8ced975f4be4ac3dea5ecf3/PHAS7%2C2.png)
   
-CREATE OR REPLACE TRIGGER BlockWeekdayAndHolidayActions
-BEFORE INSERT OR UPDATE ON some_table
-FOR EACH ROW
-BEGIN
-    -- Example trigger logic
-    IF TO_CHAR(SYSDATE, 'DY') IN ('SAT', 'SUN') THEN
-        RAISE_APPLICATION_ERROR(-20001, 'Actions are not allowed on weekends.');
-    END IF;
-END;
-/
-CREATE OR REPLACE TRIGGER BlockWeekdayAndHolidayActions
-BEFORE INSERT OR UPDATE ON some_table
-FOR EACH ROW
-BEGIN
-    -- Example trigger logic
-    IF TO_CHAR(SYSDATE, 'DY') IN ('SAT', 'SUN') THEN
-        RAISE_APPLICATION_ERROR(-20001, 'Actions are not allowed on weekends.');
-    END IF;
-END;
-/
-  
-
-  
-
-  
-
-
-
-
-
+Conclusion
+---
+Conclusion
+    The development of the Real Estate Management System (REMS) highlights the potential of technology in streamlining the operations of real estate
+    businesses. 
+    This project demonstrates how digital solutions can centralize data, automate processes, and enhance decision-making, ultimately 
+    improving organizational efficiency and customer satisfaction. Key accomplishments include:
+    Efficient property listing management, reducing manual errors.
+    Enhanced client-agent interactions through automated workflows.
 
 
 
