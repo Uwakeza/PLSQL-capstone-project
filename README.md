@@ -309,6 +309,7 @@ Database Interaction and Transactions
 
 
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/c55edc0198dc7bb89f1adb45f645ce2686cbc243/T20.png)
+![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/3024ef8cbc83bcfd1cb0201afcfae574589f14e3/T22.png)
 
 
 
