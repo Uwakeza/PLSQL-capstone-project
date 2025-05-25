@@ -334,6 +334,10 @@ Drop
   ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/96c7573979096c66ed8dbfffb2a98b153c1e0efa/package%20output.png)
 
   Advanced Database Programming and Auditing (P7)
+  
+   ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/d0b1efd702a3c61d0affe7d794c5b6350a7096a5/PHASE7%2C1.png)
+
+  
 
   
   
