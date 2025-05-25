@@ -293,6 +293,7 @@ _ System activity and SQL execution visible.
 📸screeshots
 
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/d6e18ec5be7ff6e258c5558fc1589cd954ea7bce/T1.png)
+![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/fa6f8d08a7555c8eee809021f085d1695804c1e4/T2.png)
 
   
 
