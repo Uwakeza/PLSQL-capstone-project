@@ -292,7 +292,7 @@ _ System activity and SQL execution visible.
 
 📸screeshots
 
-
+![image alt]()
 
   
 
