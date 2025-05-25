@@ -316,6 +316,13 @@ Table Creation
 Drop
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/94fda1054863f795b7d03944bf63febe5ee294bf/T25.png)
 
+🔍Windows Function Analysis
+
+- Parametirized Procedure
+
+-Cursor
+
+
 
 
 
