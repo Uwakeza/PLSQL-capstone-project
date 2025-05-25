@@ -337,7 +337,40 @@ Drop
   
    ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/d0b1efd702a3c61d0affe7d794c5b6350a7096a5/PHASE7%2C1.png)
  ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/ef4a6d446b55caa9d8ced975f4be4ac3dea5ecf3/PHAS7%2C2.png)
+
+  Trigger
   
+  CREATE OR REPLACE TRIGGER prevent_weekday_changes
+  
+BEFORE UPDATE ON hr.my_table
+
+FOR EACH ROW
+
+DECLARE
+
+  v_day VARCHAR2(10);
+  
+BEGIN
+
+  -- Get the day of the week name (e.g., MONDAY, TUESDAY)
+  
+  SELECT TO_CHAR(SYSDATE, 'DAY') INTO v_day FROM DUAL;
+  
+  -- Remove trailing spaces from day name for consistent comparison
+  
+  v_day := RTRIM(v_day);
+  
+  -- Check if today is Monday to Friday
+  
+  IF v_day IN ('MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY') THEN
+  
+    RAISE_APPLICATION_ERROR(-20001, 'Updates are not allowed on weekdays.');
+  END IF;
+  
+END;
+
+/
+
 🛒Conclusion
 ---
 Conclusion
