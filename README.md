@@ -323,9 +323,10 @@ Drop
   ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/f868d9abde9104998759bbf0c25ccfb87c882325/parametized%20for%20fetch%20output.png)
 
 - Cursor
-
+  ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/022176f43e8293ae6e4a9fc2a770e545a7729be5/CURSOR%20OUTPUT.png)
   
 - Testing
+  
 
 
 
