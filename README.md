@@ -320,7 +320,12 @@ Drop
 
 - Parametirized Procedure
 
--Cursor
+  ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/f868d9abde9104998759bbf0c25ccfb87c882325/parametized%20for%20fetch%20output.png)
+
+- Cursor
+
+  
+- Testing
 
 
 
