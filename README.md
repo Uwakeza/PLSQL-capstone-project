@@ -143,7 +143,7 @@ Improved Decision-Making:
 
 - Notification systems ensure all parties stay informed.
  
-  💡Logical Model Design
+  💡Logical Model Design(P3)
   ---
 Deliverables for Logical Model Design
 
@@ -231,7 +231,7 @@ Ensure:
 
 - Maintenance escalations: Link unresolved maintenance requests to agents or escalation mechanisms.
 
- 🖥Database Creation
+ 🖥Database Creation(P4)
   ---
   
   Pluggable Database (PDB) named:Thur_27893_Uwakeza_realestateMS_DB 
@@ -268,7 +268,7 @@ _ System activity and SQL execution visible.
   ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/0c15df538edd2f5fe6415d8439da584368fc7f83/OEM%20DIAGRAM1.png)
   
   
-  📘Table Implementation and Data Insertion 
+  📘Table Implementation and Data Insertion (P5)
 
   Objective: Translate the logical data model into physical database tables.
 
@@ -299,6 +299,14 @@ _ System activity and SQL execution visible.
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/30458f90e7f56830f33a632b31649f2d56656a20/T17.png)
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/71e4e560e3d70e6b94c48b83aba26866848a44f9/T18.png) 
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/7881ddf196d0d48995bcb627b07d4ec7bc71846f/insert2.png)
+![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/bd5a4ad428e70366e793682a073c753ee6a29dca/insert3.png)
+
+Database Interaction and Transactions 
+---
+
+🧩Data operations
+
+
    
 
 
