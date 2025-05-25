@@ -297,7 +297,7 @@ _ System activity and SQL execution visible.
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/433a6e5d71359e6bb3bdbd4ca6ca08a5c21a7a2a/T6.png)
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/83133c3ca14d35913b448e6bd4c11fa87748ccec/T7.png)
 ![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/30458f90e7f56830f33a632b31649f2d56656a20/T17.png)
-  
+![image alt](https://github.com/Uwakeza/PLSQL-capstone-project/blob/71e4e560e3d70e6b94c48b83aba26866848a44f9/T18.png) 
 
    
 
