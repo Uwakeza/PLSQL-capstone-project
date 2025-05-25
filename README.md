@@ -212,6 +212,8 @@ Constraints:
 
 - DEFAULT: Default status values, e.g., Status = 'Available' for properties.
 
+  
+
 3. Normalization
 Ensure:
 
